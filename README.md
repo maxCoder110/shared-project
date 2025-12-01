@@ -1,23 +1,17 @@
 # shared-project
-import random
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shared doc: stuff</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-def generate_random_numbers(count, lower_bound, upper_bound):
-    """Generate a list of random integers within a specified range.
-
-    Args:
-        count (int): The number of random integers to generate.
-        lower_bound (int): The lower bound of the range (inclusive).
-        upper_bound (int): The upper bound of the range (inclusive).
-
-    Returns:
-        list: A list containing the generated random integers.
-    """
-    return [random.randint(lower_bound, upper_bound) for _ in range(count)]
-if __name__ == "__main__":
-    num_count = 10
-    lower = 1
-    upper = 100
-    random_numbers = generate_random_numbers(num_count, lower, upper)
-    print(f"Generated {num_count} random numbers between {lower} and {upper}:")
-    print(random_numbers)
-
+    <header>
