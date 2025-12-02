@@ -1,15 +1,15 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>W website</title>
+    <title>W website</title>
 </head>
-  
+
 <body> 
-<h1>da best website</h1>
-<p>stuff</p>
-<p>Was popping</p>
+    <h1>da best website</h1>
+    <p>stuff</p>
+    <p>Was popping</p>
   
-<img src="peter_griffan.png">
+    <img src="peter.png">
 
 </body>
 </html>
