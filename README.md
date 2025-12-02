@@ -1,4 +1,3 @@
-# shared-project
 <DOCTYPE html>
 <html>
 <head>
