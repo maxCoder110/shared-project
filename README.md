@@ -12,8 +12,7 @@
 <h2>Games</h2>
 <p>Unblocked games</p>
 <p>games for home</p>
-<p>This is normal.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;has&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Games for home</p>
+
 
 </body>
 </html>
