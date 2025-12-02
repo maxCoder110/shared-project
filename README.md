@@ -5,7 +5,8 @@
 </head>
   
 <body> 
-<body style=background-color: black; color: white;">
+<body style=background- color: white Arial;">
+<body style="
 <h1>da best website</h1>
 <p>stuff</p>
 <p>Was popping</p>
