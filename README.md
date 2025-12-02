@@ -10,8 +10,10 @@
 
 <h1>Gaming website</h1>
 <h2>Games</h2>
-<p>Unblocked games</p>
-<p>games for home</p>
+<p>Unblocked games <br>
+games for home</p>
+
+
 
 
 </body>
