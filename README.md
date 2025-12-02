@@ -4,7 +4,7 @@
 <title>W website</title>
 </head>
   
-<body style=background- color: white Arial;">
+<body style=background- color: red Arial;">
 
 <h1>da best website</h1>
 <p>stuff</p>
