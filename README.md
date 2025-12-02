@@ -9,7 +9,7 @@
 <p>stuff</p>
 <p>Was popping</p>
   
-<img src="peter_griffan.png">
+<img src="family_guy.png">
 
 </body>
 </html>
