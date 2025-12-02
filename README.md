@@ -9,7 +9,8 @@
 <p>stuff</p>
 <p>Was popping</p>
   
-<img src="<img width="688" height="607" alt="cool dude" src="https://github.com/user-attachments/assets/d1ff7785-1cef-43cb-b032-78845162005f" />
+<img src="<img width="131" height="86" alt="doooooooooooooooooooooog" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
+
 ">
 
 </body>
