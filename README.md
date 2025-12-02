@@ -10,6 +10,6 @@
 <p>stuff</p>
 <p>Was popping</p>
   
- <img width="131" height="86" alt="doooooooooooooooooooooog" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
+<img width="131" height="86" alt="doooooooooooooooooooooog" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
 </body>
 </html>
