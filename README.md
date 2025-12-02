@@ -1,20 +1,37 @@
 <DOCTYPE html>
 <html>
 <head>
-  
 <title>W website</title>
-
 </head>
-  
-<body style="background-color: blue; color: black; font-family: 'Comic Sans MS';">
 
-<h1>Gaming website</h1>
+<h3>Gaming website</h3>
+  
+<body style="background-colour: red; color: black; font-family: 'Comic Sans MS';">
+
+<h2>list of good gaming websites</h2>
+  
+  <p style=size: 20px;">
+    1. <a style=" colour: yellow;" href="https:"https://idle-startup-tycoon.github.io/">Click here</a>
+  </p>
+  
+    <p style=size: 20px;">
+    2. <a style=" colour: yellow;" href="https:"https://sites.google.com/view/classroom6x/">Click here</a>
+  </p>
+
+    <p style=size: 20px;">
+    3. <a style=" colour: yellow;" href="https:"https://www.coolmathgames.com/">Click here</a>
+  </p>
+
+    <p style=size: 20px;">
+    4. <a style=" colour: yellow;" href="https:"https://armorgames.com/">Click here</a>
+  </p>
+  
+
 <h2>Games</h2>
 <p>Unblocked games <br> <br>
 games for home</p>
 
-
-
+<img width="131" height="86" alt="dog picture" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
 
 </body>
 </html>
