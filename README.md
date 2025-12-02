@@ -10,7 +10,7 @@
 <p>stuff</p>
 <p>Was popping</p>
   
-<img src="peter griffan.png">
+<img src="peter_griffan.png">
 
 </body>
 </html>
