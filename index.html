@@ -3,177 +3,118 @@
 <head>
     <title>W Gaming Hub</title>
     <style>
-        /* --- 1. THEME SETTINGS --- */
+        /* 1. General Page Settings */
         body {
-            background-color: #050505; /* Deep Black */
-            color: #ffffff;
-            font-family: 'Courier New', Courier, monospace; /* Retro hacker font */
+            background-color: #121212; /* Dark gaming background */
+            color: #ffffff; /* White text */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: center; /* Centers everything */
         }
 
-        /* --- 2. HEADER --- */
+        /* 2. Header Styling */
         h1 {
-            font-size: 50px;
+            font-size: 40px;
             text-transform: uppercase;
-            letter-spacing: 5px;
-            color: transparent;
-            -webkit-text-stroke: 2px #00ffcc; /* Outline text */
-            text-shadow: 0 0 20px #00ffcc;
-            margin-top: 50px;
-            margin-bottom: 10px;
+            letter-spacing: 4px;
+            color: #00ffcc; /* Neon cyan */
+            text-shadow: 2px 2px #ff00de; /* Retro purple shadow */
+            margin-top: 40px;
         }
 
-        .subtitle {
-            color: #ff00de; /* Cyberpunk Pink */
-            font-size: 18px;
-            text-shadow: 0 0 10px #ff00de;
-            margin-bottom: 60px;
+        h2 {
+            border-bottom: 2px solid #00ffcc;
+            padding-bottom: 10px;
+            margin-top: 40px;
         }
 
-        /* --- 3. GAME CARDS LAYOUT --- */
+        /* 3. The "Card" Layout for links */
         .game-list {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: wrap; /* Allows items to wrap to next line */
             justify-content: center;
-            gap: 30px;
-            max-width: 1000px;
+            gap: 20px; /* Space between cards */
+            max-width: 800px;
         }
 
-        /* The Card Design */
+        /* This styles the links to look like buttons/cards */
         .game-card {
-            background-color: #1a1a1a;
-            border: 2px solid #333;
-            width: 220px;
-            height: 280px; /* Taller for better look */
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            padding: 20px;
+            width: 200px;
             text-align: center;
-            border-radius: 15px;
-            text-decoration: none;
+            border-radius: 10px; /* Rounded corners */
+            transition: 0.3s; /* Makes the hover effect smooth */
+            text-decoration: none; /* Removes underline */
             color: white;
-            transition: 0.4s;
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
         }
 
-        /* The Emoji/Icon size */
-        .game-card .icon {
-            font-size: 60px;
-            margin-bottom: 20px;
-            transition: 0.4s;
+        /* What happens when you put your mouse over a card */
+        .game-card:hover {
+            transform: translateY(-5px); /* Moves up slightly */
+            background-color: #2a2a2a;
+            border-color: #00ffcc;
+            box-shadow: 0 0 15px #00ffcc; /* Glowing effect */
         }
 
-        .game-card .title {
-            font-size: 20px;
+        .game-card span {
             font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            z-index: 2;
+            font-size: 18px;
+            display: block;
+            margin-bottom: 5px;
         }
 
-        .game-card .desc {
-            font-size: 12px;
-            color: #888;
-            margin-top: 10px;
-            padding: 0 15px;
-        }
-
-        /* --- HOVER EFFECTS (The "Cool" Part) --- */
-        
-        /* 1. Neon Cycle Card (Cyan Glow) */
-        .card-tron:hover {
-            border-color: #00ffff;
-            box-shadow: 0 0 25px #00ffff;
-            transform: translateY(-10px);
-        }
-        
-        /* 2. Plane Game Card (Green Glow) */
-        .card-plane:hover {
-            border-color: #33ff33;
-            box-shadow: 0 0 25px #33ff33;
-            transform: translateY(-10px);
-        }
-
-        /* 3. Drop Bear Card (Orange Glow) */
-        .card-bear:hover {
-            border-color: #ff9900;
-            box-shadow: 0 0 25px #ff9900;
-            transform: translateY(-10px);
-        }
-
-        /* 4. Neon Void Card (Purple Glow) */
-        .card-void:hover {
-            border-color: #ff00de;
-            box-shadow: 0 0 25px #ff00de;
-            transform: translateY(-10px);
-        }
-
-        /* Make icon spin/move on hover */
-        .game-card:hover .icon {
-            transform: scale(1.2);
-        }
-
-        /* --- FOOTER --- */
-        .footer {
-            margin-top: 80px;
-            margin-bottom: 40px;
-            color: #555;
-            font-size: 12px;
-        }
-        
+        /* 4. Image Styling */
         .profile-pic {
-            border-radius: 50%;
-            border: 3px solid #fff;
-            box-shadow: 0 0 15px white;
-            margin-bottom: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border-radius: 50%; /* Makes the image a circle */
+            border: 4px solid #ff00de;
+            box-shadow: 0 0 20px #ff00de;
         }
-
+        
+        .footer-text {
+            color: #888;
+            font-size: 14px;
+        }
     </style>
 </head>
 
 <body>
 
     <h1>W Gaming Hub</h1>
-    <div class="subtitle">SELECT YOUR SIMULATION</div>
 
+    <h2>Top Tier Sites</h2>
+    
     <div class="game-list">
-        
-        <a class="game-card card-tron" href="tron.html">
-            <div class="icon">🏍️</div>
-            <div class="title">Neon Cycle</div>
-            <div class="desc">Grid Wars 3D</div>
+        <a class="game-card" href="https://idle-startup-tycoon.github.io/">
+            Idle Startup
         </a>
         
-        <a class="game-card card-plane" href="plane.html">
-            <div class="icon">🛩️</div>
-            <div class="title">Pixel Ace</div>
-            <div class="desc">Retro Shooter</div>
+        <a class="game-card" href="https://sites.google.com/view/classroom6x/">
+            Classroom 6x
         </a>
 
-        <a class="game-card card-bear" href="dropbear.html">
-            <div class="icon">🐨</div>
-            <div class="title">Jungle Trek</div>
-            <div class="desc">Avoid the Drop Bears</div>
+        <a class="game-card" href="https://www.coolmathgames.com/">
+            Cool Math
         </a>
 
-        <a class="game-card card-void" href="neonvoid.html">
-            <div class="icon">🌌</div>
-            <div class="title">Neon Void</div>
-            <div class="desc">Infinite Overdrive</div>
+        <a class="game-card" href="https://armorgames.com/">
+            Armor Games
         </a>
-
     </div>
 
-    <div class="footer">
-        <img class="profile-pic" width="60" height="60" alt="profile" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
-        <p>SYSTEM ONLINE • PLAYER READY</p>
+    <h2>Game Categories</h2>
+    <div class="footer-text">
+        <p>Unblocked games • Games for home</p>
     </div>
+
+    <img class="profile-pic" width="100" height="100" alt="dog picture" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
 
 </body>
 </html>
