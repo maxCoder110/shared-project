@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>W Gaming Hub</title>
+    <title>W Gaming Hub website | Unblocked Games & Top Tier Sites</title>
+
+    <meta name="description" content="Welcome to the W Gaming Hub website. Find a curated list of top unblocked games and trusted gaming site links, including Idle Startup, Cool Math, and more."/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <style>
         /* 1. General Page Settings */
         body {
@@ -17,6 +22,7 @@
 
         /* 2. Header Styling */
         h1 {
+            /* 4. H1 tag is good, no styling changes needed */
             font-size: 40px;
             text-transform: uppercase;
             letter-spacing: 4px;
@@ -40,7 +46,6 @@
             max-width: 800px;
         }
 
-        /* This styles the links to look like buttons/cards */
         .game-card {
             background-color: #1e1e1e;
             border: 1px solid #333;
@@ -54,7 +59,6 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.5);
         }
 
-        /* What happens when you put your mouse over a card */
         .game-card:hover {
             transform: translateY(-5px); /* Moves up slightly */
             background-color: #2a2a2a;
@@ -87,36 +91,37 @@
 
 <body>
 
-    <h1>W Gaming Hub</h1>
+    <h1>W Gaming Hub website: Top Unblocked Games</h1>
 
-    <h2>Top Tier Sites</h2>
+    <h2>Top Tier Sites (Unblocked & Trusted)</h2>
     
     <div class="game-list">
         <a class="game-card" href="https://idle-startup-tycoon.github.io/">
-            Idle Startup
+            Idle Startup Tycoon Game
         </a>
         
         <a class="game-card" href="https://sites.google.com/view/classroom6x/">
-            Classroom 6x
+            Classroom 6x Game Site
         </a>
 
         <a class="game-card" href="https://www.coolmathgames.com/">
-            Cool Math
+            Cool Math Games
         </a>
 
         <a class="game-card" href="https://armorgames.com/">
-            Armor Games
+            Armor Games Portal
         </a>
     </div>
 
-    <h2>Games</h2>
+    <h2>More Games</h2>
     <div class="footer-text">
-    <a href="https://maxcoder110.github.io/game-1/" class="button">Click Me</a>
-    <a href="https://maxcoder110.github.io/game-2/" class="button">Click Me</a>
-    <a href="https://maxcoder110.github.io/game-3/" class="button"Click Me</a>
+        <a href="https://maxcoder110.github.io/game-1/" class="button">Play Game 1</a>
+        <a href="https://maxcoder110.github.io/game-2/" class="button">Play Game 2</a>
+        <a href="https://maxcoder110.github.io/game-3/" class="button">Play Game 3</a>
+        <a href="https://maxcoder110.github.io/game-4/" class="button">Play Game 4</a>
     </div>
 
-    <img class="profile-pic" width="100" height="100" alt="dog picture" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
+    <img class="profile-pic" width="100" height="100" alt="W Gaming Hub website logo, a dog picture" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
 
 </body>
 </html>
