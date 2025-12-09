@@ -5,28 +5,28 @@
 
     <meta name="description" content="Welcome to the W Gaming Hub website. Find a curated list of top unblocked games and trusted gaming site links, including Idle Startup, Cool Math, and more."/>
     
-    <meta name="google-site-verification" content="<meta name="google-site-verification" content="i9YCdmltSay-pNGQi4zvuU0lTEZN31vXuSY0swUbHt4" />" />
+    <meta name="google-site-verification" content="i9YCdmltSay-pNGQi4zvuU0lTEZN31vXuSY0swUbHt4" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <style>
         body {
-            background-color: #121212; /* Dark gaming background */
-            color: #ffffff; /* White text */
+            background-color: #121212; 
+            color: #ffffff; 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
-            align-items: center; /* Centers everything */
+            align-items: center; 
         }
 
-        /* 2. Header Styling */
         h1 {
-            /* 4. H1 tag is good, no styling changes needed */
             font-size: 40px;
             text-transform: uppercase;
             letter-spacing: 4px;
-            color: #00ffcc; /* Neon cyan */
-            text-shadow: 2px 2px #ff00de; /* Retro purple shadow */
+            color: #00ffcc; 
+            text-shadow: 2px 2px #ff00de; 
             margin-top: 40px;
         }
 
@@ -36,12 +36,11 @@
             margin-top: 40px;
         }
 
-        /* 3. The "Card" Layout for links */
         .game-list {
             display: flex;
-            flex-wrap: wrap; /* Allows items to wrap to next line */
+            flex-wrap: wrap; 
             justify-content: center;
-            gap: 20px; /* Space between cards */
+            gap: 20px; 
             max-width: 800px;
         }
 
@@ -51,18 +50,18 @@
             padding: 20px;
             width: 200px;
             text-align: center;
-            border-radius: 10px; /* Rounded corners */
-            transition: 0.3s; /* Makes the hover effect smooth */
-            text-decoration: none; /* Removes underline */
+            border-radius: 10px; 
+            transition: 0.3s; 
+            text-decoration: none; 
             color: white;
             box-shadow: 0 4px 6px rgba(0,0,0,0.5);
         }
 
         .game-card:hover {
-            transform: translateY(-5px); /* Moves up slightly */
+            transform: translateY(-5px); 
             background-color: #2a2a2a;
             border-color: #00ffcc;
-            box-shadow: 0 0 15px #00ffcc; /* Glowing effect */
+            box-shadow: 0 0 15px #00ffcc; 
         }
 
         .game-card span {
@@ -72,11 +71,10 @@
             margin-bottom: 5px;
         }
 
-        /* 4. Image Styling */
         .profile-pic {
             margin-top: 50px;
             margin-bottom: 50px;
-            border-radius: 50%; /* Makes the image a circle */
+            border-radius: 50%; 
             border: 4px solid #ff00de;
             box-shadow: 0 0 20px #ff00de;
         }
