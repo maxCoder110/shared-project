@@ -5,14 +5,13 @@
 
     <meta name="description" content="Welcome to the W Gaming Hub website. Find a curated list of top unblocked games and trusted gaming site links, including Idle Startup, Cool Math, and more."/>
     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="<meta name="google-site-verification" content="i9YCdmltSay-pNGQi4zvuU0lTEZN31vXuSY0swUbHt4" />" />
     
     <style>
-        /* 1. General Page Settings */
         body {
             background-color: #121212; /* Dark gaming background */
             color: #ffffff; /* White text */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             margin: 0;
             padding: 0;
             display: flex;
