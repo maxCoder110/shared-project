@@ -146,36 +146,27 @@
     </div>
 
     <h2>More Games</h2>
-    <div class="footer-text">
-        <a href="https://maxcoder110.github.io/game-1/" class="button">Play Game 1</a>
-        <a href="https://maxcoder110.github.io/game-2/" class="button">Play Game 2</a>
-        <a href="https://maxcoder110.github.io/game-3/" class="button">Play Game 3</a>
-        <a href="https://maxcoder110.github.io/game-4/" class="button">Play Game 4</a>
+
     </div>
 
-    <div class="game-list">
+    <div class="footer-text">
         <a class="game-card" href="https://maxcoder110.github.io/game-1/">
             Play Game 1
         </a>
         
-        <a class="game-card" https://maxcoder110.github.io/game-2/">
+        <a class="footer-text" https://maxcoder110.github.io/game-2/">
             Play Game 2
         </a>
 
-        <a class="game-card" https://maxcoder110.github.io/game-3/">
-            Play 
+        <a class="footer-text" https://maxcoder110.github.io/game-3/">
+            Play Game 3
         </a>
 
-        <a class="game-card" https://maxcoder110.github.io/game-4/">
-            Armor Games Portal
+        <a class="footer-text" https://maxcoder110.github.io/game-4/">
+            Play Games 4
         </a>
 
-        <a class="game-card" href="https://sites.google.com/classroom.center/view/they-are-coming/">
-            Classroom Games
-        </a>
     </div>
-
-
     
     <img class="profile-pic" width="100" height="100" alt="W Gaming Hub website logo, a dog picture" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
 
