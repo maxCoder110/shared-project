@@ -57,7 +57,7 @@
             width: 100%;
         }
 
-        /* Individual Button Styling */
+        /* Standard Button Styling (Used for the top half) */
         .game-card {
             background-color: #1e1e1e;
             border: 1px solid #333;
@@ -74,7 +74,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 50px; /* Ensures buttons are consistent height */
+            min-height: 50px;
         }
 
         .game-card:hover {
@@ -83,6 +83,45 @@
             border-color: #00ffcc;
             box-shadow: 0 0 15px #00ffcc; 
             cursor: pointer;
+        }
+
+        /* --- NEW STYLES ONLY FOR BOTTOM BUTTONS (VIDEO CARDS) --- */
+        .video-card {
+            padding: 0; /* Remove padding so image fills the box */
+            height: 150px; /* Fixed height for video area */
+            position: relative; 
+            overflow: hidden; 
+        }
+
+        /* Image and Video positioning */
+        .video-card img, .video-card video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        /* Video is hidden by default */
+        .video-card video {
+            display: none;
+            z-index: 2;
+        }
+
+        /* Video appears on hover */
+        .video-card:hover video {
+            display: block;
+        }
+
+        /* Text title positioning for video cards */
+        .video-card .game-title {
+            position: relative;
+            z-index: 3;
+            background-color: rgba(0, 0, 0, 0.6); 
+            width: 100%;
+            padding: 10px 0;
         }
 
         .footer-container {
@@ -132,20 +171,28 @@
     <h2>More Games</h2>
 
     <div class="game-list">
-        <a class="game-card" href="https://maxcoder110.github.io/game-1/">
-            Play Game 1
+        <a class="game-card video-card" href="https://maxcoder110.github.io/game-1/" onmouseover="this.querySelector('video').play()" onmouseout="this.querySelector('video').pause()">
+            <img src="PXL_20251210_195640927.jpg" alt="Game 1">
+            <video src="WIN_20251113_09_48_17_Pro.mp4" muted loop></video>
+            <span class="game-title">Play Game 1</span>
         </a>
         
-        <a class="game-card" href="https://maxcoder110.github.io/game-2/">
-            Play Game 2
+        <a class="game-card video-card" href="https://maxcoder110.github.io/game-2/" onmouseover="this.querySelector('video').play()" onmouseout="this.querySelector('video').pause()">
+            <img src="PUT_IMAGE_URL_HERE_FOR_GAME_2" alt="Game 2">
+            <video src="PUT_VIDEO_URL_HERE_FOR_GAME_2.mp4" muted loop></video>
+            <span class="game-title">Play Game 2</span>
         </a>
 
-        <a class="game-card" href="https://maxcoder110.github.io/game-3/">
-            Play Game 3
+        <a class="game-card video-card" href="https://maxcoder110.github.io/game-3/" onmouseover="this.querySelector('video').play()" onmouseout="this.querySelector('video').pause()">
+            <img src="PUT_IMAGE_URL_HERE_FOR_GAME_3" alt="Game 3">
+            <video src="PUT_VIDEO_URL_HERE_FOR_GAME_3.mp4" muted loop></video>
+            <span class="game-title">Play Game 3</span>
         </a>
 
-        <a class="game-card" href="https://maxcoder110.github.io/game-4/">
-            Play Game 4
+        <a class="game-card video-card" href="https://maxcoder110.github.io/game-4/" onmouseover="this.querySelector('video').play()" onmouseout="this.querySelector('video').pause()">
+            <img src="PUT_IMAGE_URL_HERE_FOR_GAME_4" alt="Game 4">
+            <video src="PUT_VIDEO_URL_HERE_FOR_GAME_4.mp4" muted loop></video>
+            <span class="game-title">Play Game 4</span>
         </a>
     </div>
     
