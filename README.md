@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GV4LENQLBX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GV4LENQLBX');
+</script>
     <title>W Gaming Hub website | Unblocked Games & Top Tier Sites</title>
 
     <meta name="description" content="Welcome to the W Gaming Hub website. Find a curated list of top unblocked games and trusted gaming site links, including Idle Startup, Cool Math, and more."/>
@@ -8,7 +17,6 @@
     <meta name="google-site-verification" content="i9YCdmltSay-pNGQi4zvuU0lTEZN31vXuSY0swUbHt4" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <style>
         body {
             background-color: #121212; 
