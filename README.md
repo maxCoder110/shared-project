@@ -78,11 +78,42 @@
             border: 4px solid #ff00de;
             box-shadow: 0 0 20px #ff00de;
         }
-        
-        .footer-text {
-            color: #888;
-            font-size: 14px;
+
+         .footer-text {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center;
+            gap: 20px; 
+            max-width: 800px;
         }
+
+         .footer-text {
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            border-radius: 10px; 
+            transition: 0.3s; 
+            text-decoration: none; 
+            color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+        }
+
+         .footer-text {
+            transform: translateY(-5px); 
+            background-color: #2a2a2a;
+            border-color: #00ffcc;
+            box-shadow: 0 0 15px #00ffcc; 
+        }
+
+         .footer-text {
+            font-weight: bold;
+            font-size: 18px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
     </style>
 </head>
 
@@ -122,6 +153,30 @@
         <a href="https://maxcoder110.github.io/game-4/" class="button">Play Game 4</a>
     </div>
 
+    <div class="game-list">
+        <a class="game-card" href="https://maxcoder110.github.io/game-1/">
+            Play Game 1
+        </a>
+        
+        <a class="game-card" https://maxcoder110.github.io/game-2/">
+            Play Game 2
+        </a>
+
+        <a class="game-card" https://maxcoder110.github.io/game-3/">
+            Play 
+        </a>
+
+        <a class="game-card" https://maxcoder110.github.io/game-4/">
+            Armor Games Portal
+        </a>
+
+        <a class="game-card" href="https://sites.google.com/classroom.center/view/they-are-coming/">
+            Classroom Games
+        </a>
+    </div>
+
+
+    
     <img class="profile-pic" width="100" height="100" alt="W Gaming Hub website logo, a dog picture" src="https://github.com/user-attachments/assets/300cc496-fe92-42cc-bc7c-338e528f8beb" />
 
 </body>
