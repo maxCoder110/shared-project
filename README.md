@@ -108,6 +108,10 @@
         <a class="game-card" href="https://armorgames.com/">
             Armor Games Portal
         </a>
+
+        <a class="game-card" href="https://sites.google.com/classroom.center/view/they-are-coming/">
+            Classroom Games
+        </a>
     </div>
 
     <h2>More Games</h2>
