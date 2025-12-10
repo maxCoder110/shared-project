@@ -105,7 +105,7 @@
 
     <h1>W Gaming Hub website: Top Unblocked Games</h1>
 
-    <h2>Top Tier Sites (Unblocked & Trusted)</h2>
+    <h2>W Sites</h2>
     
     <div class="game-list">
         <a class="game-card" href="https://idle-startup-tycoon.github.io/">
