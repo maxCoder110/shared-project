@@ -94,7 +94,7 @@
         }
 
         .profile-pic {
-            border-radius: 50%; 
+            border-radius: 100%; 
             border: 4px solid #ff00de;
             box-shadow: 0 0 20px #ff00de;
         }
